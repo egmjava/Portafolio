@@ -1,0 +1,102 @@
+body {
+    background: rgba(147,206,222,1);
+    background: -moz-linear-gradient(left, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 13%, rgba(73,165,191,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(147,206,222,1)), color-stop(13%, rgba(117,189,209,1)), color-stop(100%, rgba(73,165,191,1)));
+    background: -webkit-linear-gradient(left, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 13%, rgba(73,165,191,1) 100%);
+    background: -o-linear-gradient(left, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 13%, rgba(73,165,191,1) 100%);
+    background: -ms-linear-gradient(left, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 13%, rgba(73,165,191,1) 100%);
+    background: linear-gradient(to right, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 13%, rgba(73,165,191,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93cede', endColorstr='#49a5bf', GradientType=1 );
+    font-size: 20px;
+    font-family: 'Handlee', cursive;
+}
+
+.postcard{
+    background: white;
+    width: 500px;
+    height: 360px;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px;
+    border: 5px solid rgb(7, 23, 245);
+}
+
+.postcard-header{
+    overflow: hidden;
+    position: relative;
+    border: 1px solid rgb(247, 5, 5);
+}
+
+.postcard-header img{
+    max-width: 60px;
+    float: right;
+    border: 1px solid black;
+}
+
+h1 {
+    width: 87%;
+    height: 68px;
+    margin-top: 50px;
+    border: 1px solid #99cccc;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    border: 1px solid black;
+}
+.postcard h1{
+    margin:0;
+}
+.postcard-body{
+    overflow: hidden;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+.left-part{
+    float: left;
+    width: 49%;
+    border: 1px solid black;
+}
+
+.right-part{
+    float: right;
+    padding-top: 17px;
+    width: 49%;
+    border: 1px solid black;
+}
+
+.right-part input{
+    display: block;
+}
+
+input{
+    font-size: 18px;
+    font-family: 'Handlee', cursive;
+}
+
+.postcard-footer{
+    padding: 10px;
+    text-align: center;
+    border: 1px solid rgb(7, 23, 245);
+    margin-top: 5px;
+}
+
+.postcard-footer input[type=submit]{
+    border: none;
+    border-bottom: 1px solid gray;
+}
+
+.postcard-body input{
+    display: block;
+}
+.postcard-body input[type=text]{
+    border: none;
+    border-bottom: 2px solid gray;
+    font-family: 'Handlee', cursive;
+    width: 200px;
+    float: right;
+    margin-bottom: 10px;
+    padding: 5px;
+}
