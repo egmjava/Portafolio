@@ -21,7 +21,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 15px;
-    border: 5px solid rgb(7, 23, 245);
+   /* border: 5px solid rgb(7, 23, 245); */
 }
 
 .postcard-header{
@@ -33,7 +33,7 @@ body {
 .postcard-header img{
     max-width: 60px;
     float: right;
-    border: 1px solid black;
+   /* border: 1px solid black; */
 }
 
 h1 {
@@ -44,7 +44,7 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: start;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 .postcard h1{
     margin:0;
@@ -57,14 +57,14 @@ h1 {
 .left-part{
     float: left;
     width: 49%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .right-part{
     float: right;
     padding-top: 17px;
     width: 49%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .right-part input{
@@ -79,7 +79,7 @@ input{
 .postcard-footer{
     padding: 10px;
     text-align: center;
-    border: 1px solid rgb(7, 23, 245);
+/*    border: 1px solid rgb(7, 23, 245); */
     margin-top: 5px;
 }
 
@@ -93,7 +93,7 @@ input{
 }
 .postcard-body input[type=text]{
     border: none;
-    border-bottom: 2px solid gray;
+    /* border-bottom: 2px solid gray; */
     font-family: 'Handlee', cursive;
     width: 200px;
     float: right;
